@@ -1,1 +1,54 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>drxiaoccc</title></head><body><h1>drxiaoccc</h1><p>你好，这里是 drxiaoccc 的个人落地页。</p><p><a href="https://github.com/drxiaoccc">GitHub</a> · <a href="https://drxiaoccc.github.io/PerkRadar/">PerkRadar 免费福利看板</a></p></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>drxiaoccc の 樱花小站 🌸</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:linear-gradient(160deg,#ffe5f1 0%,#e6e0ff 55%,#d5f0ff 100%);min-height:100vh;color:#5b4a68;padding:24px 16px 48px;overflow-x:hidden}
+.wrap{max-width:760px;margin:0 auto;position:relative;z-index:2}
+.hero{width:100%;border-radius:24px;box-shadow:0 12px 32px rgba(214,120,180,.35);display:block;border:4px solid #fff}
+.card{background:rgba(255,255,255,.78);backdrop-filter:blur(8px);border-radius:24px;padding:28px 24px;margin-top:20px;box-shadow:0 8px 24px rgba(150,110,200,.18);border:2px solid rgba(255,255,255,.9);text-align:center}
+h1{font-size:34px;letter-spacing:1px;background:linear-gradient(90deg,#ff7eb6,#a06cd5);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{margin-top:8px;font-size:15px;color:#8a739e}
+.badges{margin-top:14px}
+.badges span{display:inline-block;background:#ffe0ef;color:#d63384;border-radius:999px;padding:4px 12px;font-size:12.5px;margin:3px;font-weight:600}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
+a.nav{display:block;text-decoration:none;background:rgba(255,255,255,.85);border-radius:20px;padding:18px;border:2px solid #ffd6e8;transition:transform .15s,box-shadow .15s;color:#5b4a68;text-align:left}
+a.nav:hover{transform:translateY(-4px) rotate(-.4deg);box-shadow:0 12px 24px rgba(214,120,180,.3);border-color:#ff9ecb}
+a.nav .ico{font-size:28px}
+a.nav .t{font-size:17px;font-weight:700;margin:6px 0 4px}
+a.nav .d{font-size:13px;color:#8a739e;line-height:1.5}
+.about{text-align:left;font-size:14.5px;line-height:1.9;color:#6d587f}
+footer{margin-top:26px;text-align:center;font-size:12.5px;color:#a58bb8}
+.petal{position:fixed;top:-4vh;z-index:1;pointer-events:none;animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(110vh) rotate(320deg)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<img class="hero" src="hero.webp" alt="樱花树下的动漫少女和白猫">
+<div class="card">
+<h1>🌸 drxiaoccc の 小站 🌸</h1>
+<p class="tag">欢迎来到我的二次元导航页 ～ 这里收好了我的全部据点 (´▽`ʃ♡ƪ)</p>
+<div class="badges"><span>🎮 游戏开发</span><span>🤖 AI 模型</span><span>☁️ 免费算力</span><span>🐱 猫派</span></div>
+</div>
+<div class="grid">
+<a class="nav" href="https://drxiaoccc.github.io/PerkRadar/"><div class="ico">🎁</div><div class="t">PerkRadar 福利看板</div><div class="d">每天自动更新的免费福利情报，白嫖党集合地</div></a>
+<a class="nav" href="https://github.com/drxiaoccc"><div class="ico">💻</div><div class="t">GitHub</div><div class="d">我的代码仓库，项目都在这里安家</div></a>
+<a class="nav" href="https://www.kaggle.com/drxiaoccc"><div class="ico">🏆</div><div class="t">Kaggle</div><div class="d">数据科学竞赛主页，Gemma 4 比赛进行中</div></a>
+<a class="nav" href="https://make.fun/u/drxiaoccc"><div class="ico">🕹️</div><div class="t">make.fun</div><div class="d">AI 编程赏金参赛主页，《Ashwake》和象棋引擎在这打比赛</div></a>
+</div>
+<div class="card about">
+<b>✨ 关于站长</b><br>
+喜欢薅免费算力、折腾 AI 大模型、顺手做点小游戏的二次元技术宅。这个小站的域名是终身免费领到的，要陪我一百年哦 (2126 年到期)。
+</div>
+<footer>© 2026 drxiaoccc · drxiaoccc.loc.cc · 由 GitHub Pages 托管 🌸</footer>
+</div>
+<script>
+for(let i=0;i<16;i++){const p=document.createElement('div');p.className='petal';p.textContent='🌸';p.style.left=Math.random()*100+'vw';p.style.fontSize=(12+Math.random()*14)+'px';p.style.animationDuration=(7+Math.random()*8)+'s';p.style.animationDelay=(-Math.random()*10)+'s';p.style.opacity=.55+Math.random()*.45;document.body.appendChild(p)}
+</script>
+</body>
+</html>
